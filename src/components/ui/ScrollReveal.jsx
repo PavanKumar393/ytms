@@ -110,7 +110,7 @@ const ScrollReveal = ({
   return (
     <h2
       ref={containerRef}
-      className={` ${containerClassName} bg-blue-500 flex items-end justify-center`}
+      className={` ${containerClassName} bg-blue-400 flex items-end justify-center`}
     >
       <p
         className={`rt-card text-[clamp(1.8rem,4vw,3rem)]  font-semibold ${textClassName}     w-80 text-white text-2xl leading-7 py-4 `}

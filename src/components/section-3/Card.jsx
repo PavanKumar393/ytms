@@ -10,7 +10,7 @@ const Card = ({bg_color,color,id ,service}) => {
 
   return (
     <>
-      <div className="card w-90 h-90 bg-white text-blue-800 mb-4 px-5 pt-5 flex-col flex justify-around " style={{backgroundColor:`${bg_color}` ,color:`${color}`}}>
+      <div className="card w-90 h-90 bg-white text-slate-800 mb-4 px-5 pt-5 flex-col flex justify-around " style={{backgroundColor:`${bg_color}` ,color:`${color}`}}>
         <div className="card-top flex text-3xl leading-8">
           <h1>{id}</h1>
           <ArrowRight size={30} strokeWidth={1} />

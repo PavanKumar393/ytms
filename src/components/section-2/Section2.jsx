@@ -32,7 +32,7 @@ const Section2 = () => {
             <img src={jho_logo} alt="" />
           </div>
         </div>
-        <p className=" w-full bg-purple-300 text-slate-600 text-end px-10">
+        <p className=" w-full text-slate-600 text-end px-10">
           .....Many More Clients
         </p>
         {/* <div className=" flex items-end justify-end ">

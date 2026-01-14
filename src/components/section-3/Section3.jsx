@@ -4,7 +4,7 @@ import Card from "./Card";
 const Section3 = () => {
   return (
     <>
-      <section className="min-h-screen  w-full text-blue-600 bg-amber-00 mt-35 py-8  flex justify-center items-center flex-col">
+      <section className="min-h-screen  w-full text-blue-500 bg-amber-00 mt-35 py-8  flex justify-center items-center flex-col">
         <div className="sec3-top ">
           <h3 className="mt-4 mb-3 text-xl  ">WHAT WE DO</h3>
           <h1 className="leading-10 mb-4">
