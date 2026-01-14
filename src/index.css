@@ -55,13 +55,21 @@ p{
 .sec3-top>h3{
     
     font-family: ytms-light ;
-
+    
+   
 }
 .sec3-top>h1{
     
     font-size: 4vh;
+    
 }
 
+.sec3-top{
+    width: 100%;
+    padding-right: 2.2vh;
+    text-align: end;
+
+}
 
 .card-top>h1{
     font-family: ytms-light;

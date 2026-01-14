@@ -110,13 +110,13 @@ const ScrollReveal = ({
   return (
     <h2
       ref={containerRef}
-      className={`my-5 ${containerClassName} bg-white flex items-end justify-center`}
+      className={` ${containerClassName} bg-blue-500 flex items-end justify-center`}
     >
       <p
-        className={`rt-card text-[clamp(1.8rem,4vw,3rem)]  font-semibold ${textClassName}     w-80 text-blue-300 text-2xl leading-7 py-4 `}
+        className={`rt-card text-[clamp(1.8rem,4vw,3rem)]  font-semibold ${textClassName}     w-80 text-white text-2xl leading-7 py-4 `}
       >
         {splitText}{" "}
-        <span className="rt-span text-5xl  text-blue-500">That’s our promise.</span>
+        <span className="rt-span text-5xl   font-thin">That’s our promise.</span>
       </p>
     </h2>
   );
