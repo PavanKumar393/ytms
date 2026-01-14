@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'ytms-light';
+    src: url(./assets/fonts/ytms-light.ttf);
+}
+
+@font-face {
+    font-family: 'ytms-medium';
+    src: url(./assets/fonts/ytms-medium.ttf);
+}
+
+@font-face {
+    font-family: 'ytms-bold';
+    src: url(./assets/fonts/ytms-bold.ttf);
+}
+h1{
+    font-family: ytms-bold;
+}
+
+.nav>h2{
+    font-family: ytms-medium;
+    font-size: 2.5vh;
+}
+
+.bottom>h1{
+    font-family: ytms-light;
+}
+
+.btn{
+    font-family: ytms-medium;
+    border: 1px solid #e4efff;
+}
+
+.rating>h1{
+     font-family: ytms-light;
+}
+
+p{
+     font-family: ytms-light;
+}
+
+.rt-card{
+    text-align: center;
+    font-family: ytms-light;
+    font-weight:200 ; text-align: left;
+}
+
+.rt-span{
+   
+    font-family: ytms-bold;
+    
+}
+
+.sec3-top>h3{
+    
+    font-family: ytms-light ;
+
+}
+.sec3-top>h1{
+    
+    font-size: 4vh;
+}
+
+
+.card-top>h1{
+    font-family: ytms-light;
+    /* background-color: red; */
+    display: flex;
+    align-items: start;
+}
+
+.card-bottom>h3{
+    font-family: ytms-light;
+    font-size: 1.7vh;
+    margin-bottom: 2vh;
+    font-weight: 100;
+   
+}
